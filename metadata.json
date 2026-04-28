@@ -1,0 +1,8 @@
+{
+  "name": "Street Vendor Finder",
+  "description": "Customer application to track and request nearby street vendors in real-time.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}
