@@ -7,7 +7,7 @@ interface LoginScreenProps {
   onLogin: () => void;
 }
 
-let VALID_PASSWORD = 'meet@123';
+let VALID_PASSWORD = 'Yashu@143' ;
 
 export const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
   const { language } = useAppContext();
@@ -25,7 +25,7 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (username === 'Man_meet' && password === VALID_PASSWORD) {
+    if (username === 'Yashu_123' && password === VALID_PASSWORD) {
       onLogin();
     } else {
       setError('Invalid username or password');
