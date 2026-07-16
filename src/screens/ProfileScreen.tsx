@@ -56,7 +56,7 @@ export const ProfileScreen = () => {
           </div>
           
           <Toggle 
-            label="Keep contact details private" 
+            label="Privacy Mode" 
             checked={keepPrivate} 
             onChange={setKeepPrivate} 
           />
