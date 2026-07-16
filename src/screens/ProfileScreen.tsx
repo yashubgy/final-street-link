@@ -42,7 +42,7 @@ export const ProfileScreen = () => {
         <div className="mb-8">
           <div className="flex items-center gap-4 mb-3">
             <div className="w-16 h-16 rounded-full bg-zinc-200 dark:bg-zinc-800 flex items-center justify-center text-zinc-900 dark:text-zinc-100 text-xl font-semibold flex-shrink-0">
-              MK
+              YS
             </div>
             <div>
               <h2 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 mb-0.5">Yashu Sangwan</h2>
