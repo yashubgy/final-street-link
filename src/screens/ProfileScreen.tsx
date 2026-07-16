@@ -45,7 +45,7 @@ export const ProfileScreen = () => {
               MK
             </div>
             <div>
-              <h2 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 mb-0.5">Manmeet Kaur</h2>
+              <h2 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 mb-0.5">Yashu Sangwan</h2>
               <p className="text-sm text-zinc-500 dark:text-zinc-400 font-medium">
                 {keepPrivate ? "+91 98765 43xxx" : "+91 98765 43210"}
               </p>
