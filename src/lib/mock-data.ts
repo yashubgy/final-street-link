@@ -32,7 +32,7 @@ export const MOCK_VENDORS: Vendor[] = [
     category: "fruits",
     lat: 30.7688 - 0.003,
     lng: 76.5754 + 0.001,
-    distance: 0.5,
+    distance: 2,
     rating: 4.5,
     reviewsCount: 89,
     products: [
@@ -54,7 +54,7 @@ export const MOCK_VENDORS: Vendor[] = [
     category: "milk",
     lat: 30.7688 + 0.002,
     lng: 76.5754 - 0.004,
-    distance: 0.8,
+    distance: 0.1,
     rating: 4.9,
     reviewsCount: 201,
     products: [
@@ -76,7 +76,7 @@ export const MOCK_VENDORS: Vendor[] = [
     category: "snacks",
     lat: 30.7688 - 0.002,
     lng: 76.5754 - 0.002,
-    distance: 0.4,
+    distance: 0.8,
     rating: 4.6,
     reviewsCount: 156,
     products: [
@@ -98,7 +98,7 @@ export const MOCK_VENDORS: Vendor[] = [
     category: "chaat",
     lat: 30.7688 + 0.004,
     lng: 76.5754 + 0.003,
-    distance: 1.1,
+    distance: 2.2,
     rating: 4.7,
     reviewsCount: 342,
     products: [
@@ -120,7 +120,7 @@ export const MOCK_VENDORS: Vendor[] = [
     category: "vegetables",
     lat: 30.7688 - 0.005,
     lng: 76.5754 + 0.004,
-    distance: 1.5,
+    distance: 2.75,
     rating: 4.9,
     reviewsCount: 56,
     products: [
@@ -142,7 +142,7 @@ export const MOCK_VENDORS: Vendor[] = [
     category: "fruits",
     lat: 30.7688 + 0.006,
     lng: 76.5754 - 0.005,
-    distance: 1.8,
+    distance: 0.5,
     rating: 4.0,
     reviewsCount: 204,
     products: [
@@ -165,7 +165,7 @@ export const MOCK_VENDORS: Vendor[] = [
     category: "snacks",
     lat: 30.7688,
     lng: 76.5754 - 0.006,
-    distance: 1.2,
+    distance: 0.4,
     rating: 4.5,
     reviewsCount: 430,
     products: [
@@ -188,7 +188,7 @@ export const MOCK_VENDORS: Vendor[] = [
     category: "snacks",
     lat: 30.7688 + 0.001,
     lng: 76.5754 + 0.006,
-    distance: 1.6,
+    distance: 1.7,
     rating: 4.2,
     reviewsCount: 78,
     products: [
@@ -231,7 +231,7 @@ export const MOCK_VENDORS: Vendor[] = [
     category: "medicine",
     lat: 30.7688 + 0.001,
     lng: 76.5754 + 0.001,
-    distance: 0.2,
+    distance: 0.9,
     rating: 4.8,
     reviewsCount: 310,
     products: [
@@ -257,7 +257,7 @@ export const MOCK_VENDORS: Vendor[] = [
     category: "medicine",
     lat: 30.7688 - 0.002,
     lng: 76.5754 - 0.001,
-    distance: 0.4,
+    distance: 1.5,
     rating: 4.5,
     reviewsCount: 189,
     products: [
