@@ -43,14 +43,16 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
       setError('Password cannot be empty');
       return;
     }
-    if(newPassword == VALID_PASSWORD){
-      setError('You cant use the same password you are currently having ')
-      return;
-    }
+    
     if (newPassword !== confirmPassword) {
       setError('Passwords do not match. Please retype.');
       return;
     }
+    if(newPassword == VALID_PASSWORD){
+      setError('You cant use the same password you are currently having ')
+      return;
+    }
+    
     VALID_PASSWORD = newPassword;
     setIsForgotPassword(false);
     setError('');
