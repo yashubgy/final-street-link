@@ -156,7 +156,7 @@ export const ProfileScreen = () => {
           {/* Text Size Selector */}
           <div className="p-4 bg-white dark:bg-zinc-950 rounded-2xl border border-zinc-200 dark:border-zinc-800 shadow-sm mb-3">
             <div className="flex items-center gap-3 mb-3">
-              <span className="font-medium text-zinc-900 dark:text-zinc-100 text-sm">Text Size</span>
+              <span className="font-medium text-zinc-900 dark:text-zinc-100 text-sm">Text Size [BETA]</span>
             </div>
             <div className="grid grid-cols-3 gap-2">
               {(['normal', 'large', 'xl'] as const).map(size => (
