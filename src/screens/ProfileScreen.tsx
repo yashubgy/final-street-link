@@ -45,12 +45,12 @@ export const ProfileScreen = () => {
               YS
             </div>
             <div>
-              <h2 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 mb-0.5">Yashu Sangwan</h2>
+              <h2 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 mb-0.5">Test User</h2>
               <p className="text-sm text-zinc-500 dark:text-zinc-400 font-medium">
-                {keepPrivate ? "+91 91434 xxxxx" : "+91 91434 75000"}
+                {keepPrivate ? "+91 99922 xxxxx" : "+91 99922-23134"}
               </p>
               <p className="text-xs text-zinc-400 dark:text-zinc-500 mt-0.5">
-                {keepPrivate ? "yashusa*****6@gmail.com" : "yashusangwan6@gmail.com"}
+                {keepPrivate ? "testxxxxxxxx@gmail.com" : "testuser123@gmail.com"}
               </p>
             </div>
           </div>
