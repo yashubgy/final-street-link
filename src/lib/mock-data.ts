@@ -3,13 +3,13 @@ import { Vendor } from "../types";
 export const MOCK_VENDORS: Vendor[] = [
   {
     id: "v1",
-    name: "Raju Bhai Fresh Sabzi",
+    name: "Raju Bhai Sabzi Waaleeeeeeein",
     type: "Fresh Vegetables",
     vendorType: "street",
     category: "vegetables",
     lat: 30.7688 + 0.001,
     lng: 76.5754 + 0.002,
-    distance: 0.2,
+    distance: 1.2,
     rating: 4.8,
     reviewsCount: 124,
     products: [
@@ -48,7 +48,7 @@ export const MOCK_VENDORS: Vendor[] = [
   },
   {
     id: "v3",
-    name: "Pappu Pure Dairy",
+    name: "Pappu Dudh Wala",
     type: "Fresh Milk & Paneer",
     vendorType: "shop",
     category: "milk",
@@ -70,7 +70,7 @@ export const MOCK_VENDORS: Vendor[] = [
   },
   {
     id: "v4",
-    name: "Midnight Munchies Hub",
+    name: "Raat Ki Raani ",
     type: "Street Food",
     vendorType: "street",
     category: "snacks",
@@ -92,7 +92,7 @@ export const MOCK_VENDORS: Vendor[] = [
   },
   {
     id: "v5",
-    name: "Chatpati Bikaner Chaat",
+    name: "Chatpati Chaat",
     type: "Street Food",
     vendorType: "street",
     category: "chaat",
