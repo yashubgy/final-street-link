@@ -31,9 +31,9 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
     else if (username === 'Tanish_123' && password === 'Tanish@1432'){
       onLogin();
     }
-    
+
     else {
-      setError('Invalid username or password');
+      setError('Invalid username or password , please tru again');
     }
   };
 
