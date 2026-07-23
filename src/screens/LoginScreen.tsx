@@ -76,7 +76,7 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin }) => {
             </button>
             <div className="text-center mb-8">
               <h1 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">Reset Password</h1>
-              <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-2">Create a new password for Man_meet</p>
+              <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-2">Create a new password for Test Profile</p>
             </div>
 
             <form onSubmit={handleResetPassword} className="space-y-4">
